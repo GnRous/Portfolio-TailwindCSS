@@ -6,7 +6,36 @@
   <title>My-Portfolio TailwindCSS</title>
   <link rel="stylesheet" href="dist/style.css">
 </head>
-<body>
-  <h1 class="text-3xl font-bold text-sky-500 text-center">Hello derSetya!</h1>
+<body class="sm:bg-red-100 md:bg-yellow-100 lg:bg-green-100">
+
+  <!-- Hero Section Start -->
+  <section id="home" class="mt-36">
+    <div class="container">
+      <div class="flex flex-wrap">
+        <div class="w-full self-center px-4 lg:w-1/2">
+          <h1 class="text-base font-semibold text-primary md:text-xl">Hello Everyone 👋🏼, I'am <span class="block font-bold text-dark text-4xl mt-1 lg:text-5xl">Darmawan Setiawan</span></h1>
+          <h2 class="font-medium text-slate-500 text-lg mb-5 lg:text-2xl lg:mt-1">Student & <span class="text-dark">Web Developer</span></h2>
+          <p class="font-medium text-slate-400 mb-10 leading-relaxed">Setiap fungsi adalah puisi kecil; setiap objek adalah karakter dalam kisah besar yang sedang kita <span class="text-dark font-bold">coding!</span></p>
+
+          <a href="#" class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">Contact Me</a>
+        </div>
+
+        <div class="w-full self-end px-4 lg:w-1/2 lg:pr-0">
+          <div class="relative mt-10 lg:mt-0 lg:right-0">
+            <img src="dist/img/setya1.png" alt="Darmawan Setiawan" class="max-w-full mx-auto rounded-b-3xl sm:max-w-[400px]">
+            <span class="absolute -bottom-10 -z-10 left-1/2 -translate-x-1/2 md:scale-110 md:-bottom-6">
+              <svg width="400" height="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <path fill="#06b6d4" d="M32.2,-60C39.5,-51.5,41.8,-38.5,51.8,-27.7C61.8,-16.9,79.7,-8.5,80.2,0.3C80.7,9.1,64,18.2,53.5,28.2C43.1,38.3,39,49.4,31.1,54.1C23.3,58.8,11.6,57.3,1.5,54.7C-8.6,52,-17.2,48.4,-28.7,45.7C-40.1,43.1,-54.4,41.4,-66.3,33.9C-78.1,26.5,-87.4,13.2,-81.6,3.3C-75.8,-6.5,-54.9,-13.1,-44.7,-23.4C-34.5,-33.6,-35.1,-47.7,-29.4,-57.1C-23.7,-66.5,-11.9,-71.3,0.3,-71.8C12.4,-72.3,24.8,-68.4,32.2,-60Z" transform="translate(100 100) scale(1.2)" />
+              </svg>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Hero Section End -->
+  
+
+  <div class="mb-64"></div>
 </body>
 </html>
