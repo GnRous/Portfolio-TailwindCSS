@@ -9,7 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="dist/style.css">
 </head>
-<body class="sm:bg-red-100 md:bg-yellow-100 lg:bg-green-100">
+<body class="sm:bg-red-100 md:bg-yellow-100 lg:bg-green-100 xl:bg-transparent">
 
   <!-- Header Start -->
   <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
@@ -236,7 +236,7 @@
       </div>
 
       <div class="flex flex-wrap justify-center">
-        <div class="w-full px-4 lg:w-1/2 xl:w-1/3 max-lg:max-w-2xl">
+        <div class="w-full px-4 md:w-1/2 lg:w-1/3 max-lg:max-w-2xl">
           <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
             <img src="dist/img/blog/ngoding.jpg" alt="Ngoding" class="w-full">
             <div class="py-6 px-6">
@@ -250,7 +250,7 @@
             </div>
           </div>
         </div>
-        <div class="w-full px-4 lg:w-1/2 xl:w-1/3 max-lg:max-w-2xl">
+        <div class="w-full px-4 md:w-1/2 lg:w-1/3 max-lg:max-w-2xl">
           <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
             <img src="dist/img/blog/keyboard.jpg" alt="Mechanical Keyboard" class="w-full">
             <div class="py-6 px-6">
@@ -264,7 +264,7 @@
             </div>
           </div>
         </div>
-        <div class="w-full px-4 lg:w-1/2 xl:w-1/3 max-lg:max-w-2xl">
+        <div class="w-full px-4 md:w-1/2 lg:w-1/3 max-lg:max-w-2xl">
           <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
             <img src="dist/img/blog/coffee.jpg" alt="Coffee" class="w-full">
             <div class="py-6 px-6">
@@ -278,7 +278,7 @@
             </div>
           </div>
         </div>
-        <div class="w-full px-4 lg:w-1/2 xl:w-1/3 max-lg:max-w-2xl">
+        <div class="w-full px-4 md:w-1/2 lg:w-1/3 max-lg:max-w-2xl">
           <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
             <img src="dist/img/blog/books.jpg" alt="Books" class="w-full">
             <div class="py-6 px-6">
@@ -292,7 +292,7 @@
             </div>
           </div>
         </div>
-        <div class="w-full px-4 lg:w-1/2 xl:w-1/3 max-lg:max-w-2xl">
+        <div class="w-full px-4 md:w-1/2 lg:w-1/3 max-lg:max-w-2xl">
           <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
             <img src="dist/img/blog/luffy.jpg" alt="Luffy" class="w-full">
             <div class="py-6 px-6">
@@ -310,6 +310,42 @@
     </div>
   </section>
   <!-- Blog Section End -->
+
+  <!-- Contact Section start -->
+  <section id="contact" class="pt-36 pb-32">
+    <div class="container">
+      <div class="w-full px-4">
+        <div class="max-w-xl mx-auto text-center mb-16">
+          <h4 class="font-semibold text-lg text-primary mb-2">Contact</h4>
+          <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">Contact Us</h2>
+          <p class="font-medium text-secondary md:text-lg">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, incidunt.
+          </p>
+        </div>
+      </div>
+
+      <form>
+        <div class="w-full lg:w-2/3 mx-auto">
+          <div class="w-full px-4 mb-8">
+            <label for="name" class="text-base font-bold text-primary">Name</label>
+            <input type="text" id="name" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary">
+          </div>
+          <div class="w-full px-4 mb-8">
+            <label for="email" class="text-base font-bold text-primary">Email</label>
+            <input type="email" id="email" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary">
+          </div>
+          <div class="w-full px-4 mb-8">
+            <label for="message" class="text-base font-bold text-primary">Message</label>
+            <textarea type="text" id="message" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary h-32"></textarea>
+          </div>
+          <div class="w-full px-4">
+            <button class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full w-full hover:opacity-80 hover:shadow-lg transition duration-500">Send</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+  <!-- Contact Section End -->
 
   <div class="mb-64"></div>
   <script src="dist/js/script.js"></script>
